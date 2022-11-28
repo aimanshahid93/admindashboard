@@ -1,0 +1,74 @@
+body{
+  background:lightblue;
+  padding:30px;
+}
+
+.Summary-box-container{
+  background:white;
+}
+.summary-box-spec{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:8px;
+}
+.summary-box-text{
+  color:#596882;
+  margin: 0;
+  margin-bottom:4px;
+  font-size:14px;
+}
+.summary-box-time{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px;
+}
+.summary-box-number{
+  font-weight:bold;
+  font-size:24px;
+  margin:0 auto;
+  padding: 10px;
+}
+.summary-box-progress{
+  max-width:650px;
+  margin-left:10px;
+  margin-right:10px;
+ 
+}
+.SummaryBoxList{
+  display:grid;
+  gap:24px;
+  flex-wrap:wrap;
+}
+@media(min-width:500px){
+  .SummaryBoxList{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width:1200px)
+  .SummaryBoxList{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+.MonthlyProfits{
+  margin-top: 20px;
+}
+.time{
+  padding:10px;
+}
+.summary-box-progress1{
+  backgroundcolor:green;
+}
+.chart{
+  background:white;
+  height:600px;
+  width:1000px;
+}
+.basictable{
+  margin-top: 20px;
+}
+.flags{
+  height:2px;
+  width:2px;
+  border-radius:50%;
+}
